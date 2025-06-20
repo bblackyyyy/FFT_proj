@@ -38,6 +38,8 @@ namespace SignalViewerWinForms
             Width = 1_200;
             Height = 600;
             
+
+            
             WindowState = FormWindowState.Normal;
             FormBorderStyle = FormBorderStyle.Sizable;
             

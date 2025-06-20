@@ -6,13 +6,22 @@
             <OutputType>WinExe</OutputType>
             <TargetFramework>net9.0-windows</TargetFramework>
             <UseWindowsForms>true</UseWindowsForms>
+            <ApplicationIcon>icon.ico</ApplicationIcon>
             
         </PropertyGroup>
 
+    <ItemGroup>
+        <None Update="icon.ico">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
     
 
 
 
-    
+
+
+
 
 </Project>

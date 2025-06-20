@@ -21,3 +21,4 @@ E:\WinFormsApp1\WinFormsApp1\obj\Release\net9.0-windows\refint\WinFormsApp1.dll
 E:\WinFormsApp1\WinFormsApp1\obj\Release\net9.0-windows\WinFormsApp1.pdb
 E:\WinFormsApp1\WinFormsApp1\obj\Release\net9.0-windows\WinFormsApp1.genruntimeconfig.cache
 E:\WinFormsApp1\WinFormsApp1\obj\Release\net9.0-windows\ref\WinFormsApp1.dll
+E:\WinFormsApp1\WinFormsApp1\obj\Release\net9.0-windows\WinFormsApp1.sourcelink.json
