@@ -1,0 +1,4 @@
+E:\WinFormsApp1\WinFormsApp1\obj\Release\net9.0-windows\SignalViewerWinForms.GeneratedMSBuildEditorConfig.editorconfig
+E:\WinFormsApp1\WinFormsApp1\obj\Release\net9.0-windows\SignalViewerWinForms.AssemblyInfoInputs.cache
+E:\WinFormsApp1\WinFormsApp1\obj\Release\net9.0-windows\SignalViewerWinForms.AssemblyInfo.cs
+E:\WinFormsApp1\WinFormsApp1\obj\Release\net9.0-windows\SignalViewerWinForms.csproj.CoreCompileInputs.cache
