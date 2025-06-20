@@ -2,7 +2,7 @@
 
 A desktop application written in C# using WinForms that allows users to load and analyze time-domain signals from `.csv` files. The application visualizes both the signal waveform (oscillogram) and its frequency content (spectrum via FFT).
 
-![Program Interface](picture.png)
+![Program Interface](picture.PNG)
 
 ---
 
