@@ -6,33 +6,31 @@ A desktop application written in C# using WinForms that allows users to load and
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📁 **CSV Signal File Loader**  
+-  **CSV Signal File Loader**  
   Easily browse and load `.csv` files containing numeric signal samples.
 
-- 📊 **Oscillogram and Spectrum Charts**  
+-  **Oscillogram and Spectrum Charts**  
   View the time-domain signal and its frequency domain transform using Fast Fourier Transform (FFT).
 
-- 🎚 **Interactive Fragment Selection**  
+-  **Interactive Fragment Selection**  
   - Choose the **start sample** and **number of samples** for analysis  
   - Maximum length defaults to file size, adjustable downward
 
-- 🎛️ **Sampling Rate Input**  
+-  **Sampling Rate Input**  
   Input or adjust the sampling rate (in Hz) for accurate frequency scaling.
 
-- 🪟 **Window Function Selection**  
+- **Window Function Selection**  
   Apply different windowing functions:
   - Rectangular (default)
   - Hann
   - Hamming
 
-- 🎨 **Styled Buttons & UI**  
-  Includes custom colors and rounded buttons for a modern look.
 
 
 
-## 🏗️ Building the Project
+##  Building the Project
 
 Ensure you have the .NET 8 SDK installed. Then run:
 
