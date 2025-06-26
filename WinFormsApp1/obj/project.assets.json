@@ -2,6 +2,32 @@
   "version": 3,
   "targets": {
     "net9.0-windows7.0": {
+      "FFTlib/2.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FFTlib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FFTlib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FftSharp/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FftSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FftSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -83,6 +109,38 @@
     }
   },
   "libraries": {
+    "FFTlib/2.2.4": {
+      "sha512": "vse1COS/1Zr9o4Kzp9HdC7BA32YoFmz/5ncxUtg5qzUY/gk9V5GOKpKN9ufiu07TOEz2j1ZCA9AKwtKJH79/WQ==",
+      "type": "package",
+      "path": "fftlib/2.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "fftlib.2.2.4.nupkg.sha512",
+        "fftlib.nuspec",
+        "lib/netstandard2.0/FFTlib.dll",
+        "lib/netstandard2.0/FFTlib.xml",
+        "packt-cs8-sharedlibrary.png"
+      ]
+    },
+    "FftSharp/2.2.0": {
+      "sha512": "TMdujVhp5qPCo8qABBxWJAS+sUFHR7XBX1U/v9l9vDosx8CqKWTttW4fpetroTGrqOfq/jRBRi8zthpoe7a+Qg==",
+      "type": "package",
+      "path": "fftsharp/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fftsharp.2.2.0.nupkg.sha512",
+        "fftsharp.nuspec",
+        "icon.png",
+        "lib/net8.0/FftSharp.dll",
+        "lib/net8.0/FftSharp.xml",
+        "lib/netstandard2.0/FftSharp.dll",
+        "lib/netstandard2.0/FftSharp.xml"
+      ]
+    },
     "runtime.native.System.Data.SqlClient.sni/4.4.0": {
       "sha512": "A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
       "type": "package",
@@ -198,6 +256,8 @@
   },
   "projectFileDependencyGroups": {
     "net9.0-windows7.0": [
+      "FFTlib >= 2.2.4",
+      "FftSharp >= 2.2.0",
       "System.Data.SqlClient >= 4.9.0",
       "System.Windows.Forms.DataVisualization >= 1.0.0-prerelease.20110.1"
     ]
@@ -208,11 +268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "E:\\win_form_apps\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "E:\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectPath": "E:\\win_form_apps\\WinFormsApp1\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\dt\\.nuget\\packages\\",
-      "outputPath": "E:\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "outputPath": "E:\\win_form_apps\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -246,6 +306,14 @@
       "net9.0-windows7.0": {
         "targetAlias": "net9.0-windows",
         "dependencies": {
+          "FFTlib": {
+            "target": "Package",
+            "version": "[2.2.4, )"
+          },
+          "FftSharp": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.9.0, )"

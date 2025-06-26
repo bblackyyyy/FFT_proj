@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "E:\\win_form_apps\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "E:\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "E:\\win_form_apps\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "E:\\win_form_apps\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "E:\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectPath": "E:\\win_form_apps\\WinFormsApp1\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\dt\\.nuget\\packages\\",
-        "outputPath": "E:\\WinFormsApp1\\WinFormsApp1\\obj\\",
+        "outputPath": "E:\\win_form_apps\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -45,6 +45,14 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "dependencies": {
+            "FFTlib": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "FftSharp": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.9.0, )"

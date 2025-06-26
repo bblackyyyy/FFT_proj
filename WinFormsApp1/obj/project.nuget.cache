@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EKSrzJMCmJQ=",
+  "dgSpecHash": "DslErdadjJ8=",
   "success": true,
-  "projectFilePath": "E:\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+  "projectFilePath": "E:\\win_form_apps\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dt\\.nuget\\packages\\fftlib\\2.2.4\\fftlib.2.2.4.nupkg.sha512",
+    "C:\\Users\\dt\\.nuget\\packages\\fftsharp\\2.2.0\\fftsharp.2.2.0.nupkg.sha512",
     "C:\\Users\\dt\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\dt\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\dt\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
